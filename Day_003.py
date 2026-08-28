@@ -27,15 +27,17 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-left_or_right = input("you are in a jungle with two paths\nwould you go left or right?\n")
+left_or_right = input("you are in a jungle with two paths\n"
+                      "would you go 'left' or 'right'?\n") #I could have used .lower()
 if left_or_right == "left" or left_or_right == "Left" or left_or_right == "LEFT":
     print("you have reached the river.")
-    swim_or_wait = input("you are in front of the river.\nwould you swim or wait?\n")
+    swim_or_wait = input("you are in front of the river.\nwould you 'swim' or 'wait'?\n")
     if swim_or_wait == "wait" or swim_or_wait == "Wait" or swim_or_wait == "WAIT":
         print("you have reached the door to the treasure")
 
         door = input(
-            "you are in front of the doors in which one of them opens to the treasure.\n would you choose yellow, red, blue?\n")
+            "you are in front of the doors in which one of them opens to the treasure.\n"
+            " would you choose 'yellow', 'red', 'blue'?\n")
         if door == "yellow" or door == "Yellow" or door == "YELLOW":
             print("you have reached the treasure! yoohooo")
         elif door == "blue" or door == "BLUE" or door == "Blue":
