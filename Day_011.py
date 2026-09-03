@@ -27,7 +27,7 @@ def compare(u_score, c_score):
         return "you lose"
 
 def play_game():
-    # print(logo)
+    print(logo)
     user_cards = []
     computer_cards = []
     computer_score = -1
