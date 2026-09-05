@@ -42,7 +42,7 @@ Each folder contains the code for that day's project, along with any supporting 
 
 ## Progress
 
-🚧 Currently on Day 11 of 100 🚧
+🚧 Currently on Day 12 of 100 🚧
 
 ## Course
 
