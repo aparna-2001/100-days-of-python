@@ -1,8 +1,8 @@
 #day 010
 #Calculator project
 
-from art import logo
-print(logo)
+# from art import logo
+# print(logo)
 
 
 def add(n1, n2):

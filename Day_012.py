@@ -35,7 +35,6 @@ def game():
     turns = difficulty()
 
 
-
     guess = 0
     while guess != answer:
         print(f"you have {turns} remaining to guess the number")
